@@ -1,0 +1,32 @@
+.sr{
+
+    &_container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 500px;
+        background-color: #ad1919;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    &_form{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom:20px ;
+
+        input{
+            height: 30px;
+            width: 70%;
+            text-align: center;
+            
+            border: 1 px dashed #420420;
+        }
+
+        button{
+            height: 30px;
+            border: none;
+        }
+
+    }
+}

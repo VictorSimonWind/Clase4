@@ -1,0 +1,41 @@
+
+.nb{
+    
+    &_container{
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap ;
+        background-color:rgb(10, 10, 10);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &_routes{
+        margin-top: 0;
+        margin-bottom: 0;
+        height: fit-content;
+        
+    }
+    
+    &_route{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: fit-content;
+        
+        :hover{
+            border-bottom: 3px solid ;
+            transition: 500ms ease-in-out #8ee4af;
+        }
+
+    }
+
+
+    &_logo{
+        content: "";
+        height: 80px;
+        width: 80px;
+    }
+    
+}

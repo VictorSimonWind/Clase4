@@ -1,0 +1,14 @@
+.pr{
+
+    &_container{
+        width: 100%;
+        max-width: 1200px;
+        flex-flow: column;
+        background-color: rgb(24, 24, 24);
+    }
+
+    &_title{
+        color: $LimeGreen;
+    }
+
+}

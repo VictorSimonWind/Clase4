@@ -1,0 +1,48 @@
+.it{
+
+    &_container{
+        cursor: pointer;
+        max-width: 150px;
+        margin:15px;
+
+        :hover{
+            img{
+                
+                height: 105%;
+                width: 105;
+                overflow: hidden;
+                transition: ease-in-out 500ms;
+            }
+        }
+    }
+
+    &_img{
+        width: 150px;
+        img{
+            width: inherit;
+        }
+    }
+
+    &_title{
+        
+        h6{
+            color: $LimeGreen;
+            margin: 5px;
+        }
+    }
+
+    &_desc{
+        color: $LimeGreen;
+        font-size: 10px;
+        P{
+            margin: 5px;
+        }
+    }
+
+    &_price{
+        color: $LimeGreen;
+        p{
+            margin: 5px;
+        }
+    }
+}
